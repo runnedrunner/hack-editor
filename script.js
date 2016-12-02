@@ -2,7 +2,6 @@ var editor = $(parent.document.body)
 var topbar = $(parent.parent.document.body).find("#topbar")
 
 var allDivsInTheEditor = editor.find("div")
-editor.find("div")
 
 
 
@@ -19,7 +18,10 @@ var randomColor = function () {
   return "rgb(" + random255() + "," + random255() + "," + random255() + ")";
 }
 
-
+var doWork = function () {
+    $(this).css("backgroundColor",randomColor());
+  });	
+}
 
 var i=0;
 var intervalId = setInterval(function () {
