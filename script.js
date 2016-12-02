@@ -17,6 +17,10 @@ allDivsInTheEditor.keydown(function() {
 var random255 = function () {
   return Math.floor(Math.random()*255);
 }
+allDivsInTheEditor.keydown(function() {
+  alert( "Wow, you pressed a button!" );
+
+});
 var randomColor = function () {
   return "rgb(" + random255() + "," + random255() + "," + random255() + ")";
 }
