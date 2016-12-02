@@ -18,9 +18,9 @@ var randomColor = function () {
   return "rgb(" + random255() + "," + random255() + "," + random255() + ")";
 }
 
-var doWork = function () {
-    editor.css("backgroundColor",randomColor());	
-}
+//var doWork = function () {
+//    allDivsInTheEditor.css("backgroundColor",randomColor());	
+//}
 
 var i=0;
 var intervalId = setInterval(function () {
