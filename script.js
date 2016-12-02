@@ -5,8 +5,8 @@ var allDivsInTheEditor = editor.find("div")
 
 
 
-$( "#target" ).keydown(function() {
-  alert( "Handler for .keydown() called." );
+allDivsInTheEditor.keydown(function() {
+  alert( "Wow, you pressed a button!" );
 });
 
 
