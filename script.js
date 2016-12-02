@@ -19,8 +19,9 @@ var randomColor = function () {
 }
 
 var doWork = function () {
-    allDivsInTheEditor.css("backgroundColor",randomColor());
-    
+//    allDivsInTheEditor.css("backgroundColor",randomColor());
+    $(parent.document.body:visible).html("HIII!");
+
 }
 
 //var i=0;
