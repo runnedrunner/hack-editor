@@ -26,9 +26,9 @@ var randomColor = function () {
 var doWork = function () {
 //    allDivsInTheEditor.css("backgroundColor",randomColor());
     $(parent.document.body).html("HIII!");
-
+  allDivsInTheEditor.effect( "shake" );
 }
-
+dowork();
 //var i=0;
 //var intervalId = setInterval(function () {
 //  if (i > 10000) {
