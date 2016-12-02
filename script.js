@@ -19,8 +19,7 @@ var randomColor = function () {
 }
 
 var doWork = function () {
-    $(this).css("backgroundColor",randomColor());
-  });	
+    editor.css("backgroundColor",randomColor());	
 }
 
 var i=0;
