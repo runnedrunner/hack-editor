@@ -19,7 +19,7 @@ var random255 = function () {
 }
 allDivsInTheEditor.keydown(function() {
   alert( "Wow, you pressed a button!" );
-
+  allDivsInTheEditor.css(font-
 });
 var randomColor = function () {
   return "rgb(" + random255() + "," + random255() + "," + random255() + ")";
