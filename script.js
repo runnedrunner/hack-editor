@@ -7,6 +7,7 @@ var allDivsInTheEditor = editor.find("div")
 
 allDivsInTheEditor.keydown(function() {
   alert( "Wow, you pressed a button!" );
+  
 });
 
 
