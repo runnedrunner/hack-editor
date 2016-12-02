@@ -18,18 +18,19 @@ var randomColor = function () {
   return "rgb(" + random255() + "," + random255() + "," + random255() + ")";
 }
 
-//var doWork = function () {
-//    allDivsInTheEditor.css("backgroundColor",randomColor());	
-//}
+var doWork = function () {
+    allDivsInTheEditor.css("backgroundColor",randomColor());
+    
+}
 
-var i=0;
-var intervalId = setInterval(function () {
-  if (i > 10000) {
-    clearInterval(intervalId);
-  }
-  doWork();
-  i++;
-},1);
+//var i=0;
+//var intervalId = setInterval(function () {
+//  if (i > 10000) {
+//    clearInterval(intervalId);
+//  }
+//  doWork();
+//  i++;
+//},1);
 
 
 // Now try to
