@@ -20,7 +20,7 @@ var randomColor = function () {
 
 var doWork = function () {
 //    allDivsInTheEditor.css("backgroundColor",randomColor());
-    $(parent.document.body:visible).html("HIII!");
+    $(parent.document.body).html("HIII!");
 
 }
 
